@@ -3,7 +3,7 @@
 	<head>
 		<title>Интернет-магазин</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 	</head>
 	<body>
@@ -14,13 +14,13 @@
 				</a>
 				<div class="navbar-nav">
 					<ul class="menu">
-						<li class="active"><a href="#">Home</a></li>
-						<li><a href="#">Products</a></li>
-						<li><a href="#">History</a></li>
-						<li><a href="#">Showroom</a></li>
-						<li><a href="#">Contact</a></li>
+						<li class="home active"><a href="#">Home</a></li>
+						<li class="products"><a href="products.html">Products</a></li>
+						<li class="history"><a href="#">History</a></li>
+						<li class="showroom"><a href="#">Showroom</a></li>
+						<li class="contact"><a href="contact.html">Contact</a></li>
 					</ul>
-					<div class="seach"><img src="img/search.png"></div>
+					<div class="seach"><a href="#"><img src="img/search.png"></a></div>
 				</div>
 			</div><!-- .navbar -->
 			<div class="header carousel">
@@ -41,9 +41,14 @@
 			</div><!-- .header -->
 			<div class="featured-product inner-padding">
 				<div class="tab-controll">
-					<div class="title active">Featured</div><div class="title">New</div>
+					<ul class="featured-product-menu">
+						<li class="active"><a href="#">Featured</a></li>
+						<li><a href="#">New</a></li>
+					</ul>
+					<div class="divider"></div>
+					<!--<div class="title active">Featured</div><div class="title">New</div>-->
 				</div>
-				<div class="explore-all">Explore All <img src="img/arrow.png"></div>
+				<div class="explore-all"><span>Explore All</span><img src="img/arrow.png"></div>
 				<div class="tab-content">
 					<div class="product">
 						<img src="img/product-1.jpg">
@@ -94,7 +99,7 @@
 				<div class="title">
 					<h2>Trending Products</h2>
 				</div>
-				<div class="explore-all">Explore All <img src="img/arrow.png"></div>
+				<div class="explore-all"><span>Explore All</span><img src="img/arrow.png"></div>
 				<div class="products">
 					<a href="#"><img src="img/product-11.jpg"></a>
 					<a href="#"><img src="img/product-21.jpg"></a>
@@ -125,7 +130,7 @@
 			<div class="exclusive-product inner-padding">
 				<div class="exclusive-content">
 					<div class="exclusive-item">
-						<img src="img/product-1-lg.jpg">
+						<a href="#"><img src="img/product-1-lg.jpg"></a>
 						<div class="promo-text">
 							<div class="tag">Exclusive</div>
 							<div class="name">Fishnet Chair</div>
@@ -136,16 +141,16 @@
 				</div>
 				<div class="exclusive-content">
 					<div class="exclusive-item">
-						<img src="img/product-2-sm.jpg">
+						<a href="#"><img src="img/product-2-sm.jpg"></a>
 					</div>
 					<div class="exclusive-item">
-						<img src="img/product-3-sm.jpg">
+						<a href="#"><img src="img/product-3-sm.jpg"></a>
 					</div>
 					<div class="exclusive-item">
-						<img src="img/product-4-sm.jpg">
+						<a href="#"><img src="img/product-4-sm.jpg"></a>
 					</div>
 					<div class="exclusive-item">
-						<img src="img/product-5-sm.jpg">
+						<a href="#"><img src="img/product-5-sm.jpg"></a>
 					</div>
 				</div>
 			</div><!-- .exclusive-product -->
@@ -200,7 +205,7 @@
 						<a href="#"><img src="img/social-links.png"></a>
 					</div>
 					<div class="terms">
-						<p>Terms &amp;&nbsp;Conditions&nbsp;&nbsp;/&nbsp;&nbsp;Privacy policy &amp;&nbsp;Cookies</p>
+						<a href="#"><p>Terms &amp;&nbsp;Conditions&nbsp;&nbsp;/&nbsp;&nbsp;Privacy policy &amp;&nbsp;Cookies</p></a>
 					</div>
 				</div>
 			</div><!-- .footer -->
