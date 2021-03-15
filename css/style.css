@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
-
-
 @font-face {
 	font-family: Gotham; 
 	src: url(../css/Gotham-Light.otf); 
@@ -25,7 +22,7 @@ body {
 }
 
 .container {
-	/*margin: 0 auto;*/
+	margin: 0 auto;
 	width: 1366px;
 	position: relative;
 	background-color: white;
